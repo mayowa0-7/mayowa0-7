@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+           h1 { font-family:Helvetica;
+                background:rgb(223, 236, 245);
+                font-size:29px;
+                font-weight:900;
+                color:rgb(54, 104, 105);
+                
+           }
+           p { color:rgb(54, 104, 105);
+           }
+            #invitation{ background-color:rgb(160, 159, 166);
+            text-align:center;
+            color:white;
+            font-weight:1000;
+               
+           }
+           .speaker {color:white;
+               background-color:rgb(160, 159, 166);
+               font-weight:1000;
+                text-align:center;
+                
+           }
+           .names{ font-weight:1000;
+                    font-style:italic;
+                    text-align:center;
+                    color:black;
+                
+           }
+           .date { font-size :1.2em;
+                    font-weight:bold;
+                    line-height:1.5em;
+                    z-index:1;
+         
+           }
+           ul {color:rgb(41, 42, 56);
+           }
+           .february { color:rgb(168, 43, 12);}
+           .registration{ font-weight:bold;
+                            text-align:center;
+           }
+           #the-body{ margin:auto;
+           border:4px dotted rgb(167, 193, 219);
+           padding:6px;
+              
+           }
+               
+           #be-present {background:rgb(223, 236, 245);
+               width:100%;
+               font-size:25px;
+              
+              
+           }
+        #host{background:rgb(255, 255, 255);
+               width:100%;
+               font-size:25px;
+            
+        }
+        #event{
+            background:rgb(223, 236, 245);
+               width:100%;
+               font-size:25px;}
+        </style>
+    </head>
+    <body>
+        <div id="the-body">
+        <h1><center>5TH ANNUAL INTERNATIONAL</center> <br><center>BOOK FAIR</center></h1>
+        <h2 id="invitation">INVITATION</h2>
+        <div id="be-present">
+        <p class="date"> Be present at the Imperial Event Hall London, as we all converge for annual book fair event.<br><strong> <em>11 - 14</em><br><span class="february">February</span><br><em>10:00am-5:00pm</em></strong></p>
+        
+        </div>
+        <div id="host"><h3 class="speaker">SPEAKERS</h3>
+           <p class="names">Dr. Mayowa / Dr. Maria CJ / Dr Coding ITD</p>
+           </div>
+    
+        
+        <div id="event"><p>Event activties include:</p>
+        <ul>
+            <li>Networking</li>
+            <li>Book Launch</li>
+            <li>Meet and Greet with Authors and Publshers</li>
+            <li>Book Auctions </li>
+            <li>Sales</li>
+        </ul> 
+            
+        
+        <p class="registration"> For registeration, Enquiries and FAQs<br><a href=""> kindly  click the here</a>
+        </p>
+        </div>
+        </div>
+        
+    </body>
+</html>
